@@ -46,6 +46,32 @@ WordPress Missing Pets Directory is a plugin and theme project that provides RES
 
 - Make sure to follow the setup instructions carefully to ensure the proper functioning of the application, especially setting the permalink structure to "Post name" for the REST API calls to work correctly.
 
+## Manual Installation Instructions:
+
+1. Plugin Installation:
+   - Download the plugin ZIP file from the GitHub repository.
+   - Log in to your WordPress admin dashboard.
+   - Navigate to Plugins > Add New.
+   - Click on the "Upload Plugin" button at the top of the page.
+   - Choose the downloaded ZIP file and click "Install Now."
+   - After installation, activate the plugin.
+
+2. Theme Installation:
+   - Download the theme ZIP file from the GitHub repository.
+   - Log in to your WordPress admin dashboard.
+   - Navigate to Appearance > Themes.
+   - Click on the "Add New" button at the top of the page.
+   - Click on the "Upload Theme" button.
+   - Choose the downloaded ZIP file and click "Install Now."
+   - After installation, activate the theme.
+
+3. Set Permalinks
+   - Set the permalink structure by navigating to Settings -> Permalinks and selecting the "Post name" option. Save the changes.
+
+## Testing Purpose:
+You can easily install the plugin and theme on your working website for testing purposes.
+Simply follow the installation instructions provided above. Once installed and activated, you can explore the features and functionality of both the plugin and the theme to ensure they meet your requirements. If you have any issues or feedback, feel free to reach out to the plugin and theme authors on GitHub for assistance and support.
+
 ## Author
 
 - **Author:** Vlad P
