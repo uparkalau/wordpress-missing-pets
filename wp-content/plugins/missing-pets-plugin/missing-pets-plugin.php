@@ -18,7 +18,6 @@ function register_missing_pets_endpoints() {
     ));
 }
 
-// Callback function to return pet data from JSON file
 function get_missing_pets_data(WP_REST_Request $request) {
     $response = array();
 
@@ -34,7 +33,9 @@ function get_missing_pets_data(WP_REST_Request $request) {
                 $search = $request->get_param('search');
                 if (!empty($search)) {
                     $filtered_data = array_filter($decoded_data, function($pet) use ($search) {
-                        return strpos(strtolower($pet['name']), strtolower($search)) !== false;
+                        return strpos(strtolower($pet['name']), strtolower($search)) !== false ||
+                               strpos(strtolower($pet['animal']), strtolower($search)) !== false ||
+                               strpos(strtolower($pet['age']), strtolower($search)) !== false;
                     });
                     
                     $response = array_values($filtered_data);
@@ -53,4 +54,3 @@ function get_missing_pets_data(WP_REST_Request $request) {
 
     return $response;
 }
-

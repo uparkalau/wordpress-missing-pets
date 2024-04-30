@@ -12,7 +12,7 @@ function missing_pets_directory_scripts() {
     // Enqueue Bootstrap JS
     wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), '5.3.3', true );
 
-    // Enqueue jQuery UI (for Autocomplete)
+    // Enqueue jQuery UI
     wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.js', array('jquery'), '1.12.1', true );
 
     // Enqueue Custom JS
