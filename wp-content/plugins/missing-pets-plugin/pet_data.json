@@ -1,0 +1,12 @@
+[
+    {"animal":"cat","name":"Furball","age":3},
+    {"animal":"dog","name":"Rex","age":5},
+    {"animal":"bird","name":"Tweety","age":2},
+    {"animal":"fish","name":"Splash","age":1},
+    {"animal":"hamster","name":"Nibbles","age":2},
+    {"animal":"cat","name":"Whiskers","age":4},
+    {"animal":"dog","name":"Buddy","age":6},
+    {"animal":"parrot","name":"Polly","age":3},
+    {"animal":"rabbit","name":"Fluffy","age":2},
+    {"animal":"snake","name":"Slither","age":1}
+]
