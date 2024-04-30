@@ -1,0 +1,53 @@
+/* Reset default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container style */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Table styles */
+#pets-container, .row {
+    border-left: 1px solid #ddd; 
+    border-right: 1px solid #ddd;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.col-md-4 {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Titles for the fields */
+.bg-light {
+    text-align: center; 
+}
+
+/* Header and footer style */
+header, footer {
+    background-color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+header h1, footer h2 {
+    margin: 0;
+}
+
+/* Search form */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+}
+
+/* Search icon */
+.fa-search {
+    color: #ccc;
+    pointer-events: none;
+}
